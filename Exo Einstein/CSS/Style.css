@@ -1,0 +1,495 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.header li{
+    margin-right: 180px;
+    font-size: 20px;
+}
+
+.header img{
+    width: 100px;
+}
+
+h1{
+    color: #9999ff;
+}
+
+h2{
+    text-align: center;
+}
+
+.content1{
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    background-color: #111177;
+    color: white;
+    padding: 50px;
+}
+
+.content1 .bloc1{
+    width: 500px;
+}
+
+.content1 span{
+    color: #9999ff;
+}
+
+.content1 img{
+    width: 200px;
+    margin-left: 100px;
+}
+
+.content2{
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.content2 .bloc1{
+    width: 400px;
+    margin-right: 30px;
+}
+
+.content2 .imgbloc{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content2 img{
+    margin-bottom: 10px;
+}
+
+.content2 .img3{
+    width: 400px; 
+}
+
+.content2 .imgbloc img:nth-child(1), .content2 .imgbloc img:nth-child(2){
+    width: 192px;
+}
+
+.content2 img:nth-child(3){
+    width: 400px;
+}
+
+.content2 .bloc2{
+    width: 800px;
+    height: 760px; 
+    padding: 20px;
+    font-size: 22px;
+    text-align: justify;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #000055;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer img{
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    border: 2px solid #888888;
+    border-radius: 50px;
+}
+
+.content1e{
+    height: 400px;
+    background-image: url(/Images/einstein/depuis-quand-mesure-t_on-le-temps.jpg);
+    backdrop-filter: drop-shadow(8px 8px 10px green);
+    background-position: center;
+    background-size: cover;
+    border: 6px double #9999ff;
+}
+
+h3{
+    color: #b982ca;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h4{
+    color: #9999ff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.content2e{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+}
+
+.content2e .tableau{
+    width: 1000px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content2e .tableau div{
+    height: auto;
+    width: 320px;
+    border: 1px solid #111199;
+}
+
+.content2e .tableau h5{
+    border: 1px solid blue;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    color: #6d6db1;
+    font-size: 20px;
+    background-color: white;
+}
+
+.content2e .tableau div{
+    width: 320px;
+    height: 220px;
+    margin: 0px;
+    color: #00000000;
+    overflow: hidden;
+}
+
+.content2e .tableau .img1{
+    background-image: url(/Images/experience/einstein.jpeg);
+    background-size: cover;
+}
+
+.content2e .tableau .img2{
+    background-image: url(/Images/experience/lumiere.jpeg);
+    background-size: cover;
+}
+
+.content2e .tableau .img3{
+    background-image: url(/Images/experience/train.jpeg);
+    background-size: cover;
+}
+
+.content2e .tableau .img4{
+    background-image: url(/Images/experience/navette.jpeg);
+    background-size: cover;
+}
+
+.content2e .tableau .img5{
+    background-image: url(/Images/experience/boite.jpeg);
+    background-size: cover;
+}
+
+.content2e .tableau .img6{
+    background-image: url(/Images/experience/piece.jpeg);
+    background-size: cover;
+}
+
+.content2e .tableau div:hover{
+    transition: ease 0.6s;
+    transform: scale(1.5);
+    background-image: none;
+    background-color: #6d6db1;
+    color: white;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+.content2e .tableau div:after{
+    transition: ease 0.6s;
+    transform: scale(1.0);
+}
+
+
+.content1c{
+    height: 800px;
+    background-color: #6d6db1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2c{
+    width: 500px;
+    border-radius: 15px;
+    background-color: #000055;
+    box-shadow: 0px 10px 50px black;
+}
+
+.content2c .WCH{
+    height: 35px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #111199;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.PL1, .PL2{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.PL1 div, .PL2 div{
+    height: 5px;
+    width: 5px; 
+}
+
+.PL1 div{
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 50px;  
+}
+
+.PL1 div:nth-child(1){
+    background-color: yellow;
+}
+
+.PL1 div:nth-child(2){
+    background-color: greenyellow;
+}
+
+.PL1 div:nth-child(3){
+    background-color: red;
+}
+
+
+
+.PL2 p{
+    color: #888888;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.content2c .WCC{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content2c .CI1{
+    width: 100px;
+    margin: 0px;
+    font-size: 30px;
+    color: white;
+}
+
+.content2c .CI2{
+    width: 30px;
+    border-top: 3px solid white;
+    margin: 0px;
+}
+
+.content2c .CI3{
+    font-size: 10px;
+    color: #888888;
+    margin-top: 150px;
+}
+
+.content2c .WCC .bloc2{
+    display: flex;
+    flex-direction: column;
+}
+
+.content2c .WCC .bloc2 input{
+    height: 20px;
+    width: 150px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border: 0px solid white;
+    border-bottom: 1px solid white;
+    color: #888888;
+    background-color: #000055;
+}
+
+.content2c .WCC .bloc2 .Tarea{
+    margin-top: 40px;
+}
+
+.content2c .WCC .bloc2 .SEND{
+    border: 0px solid white;
+    text-align: left;
+    color: white;
+}
+
+.content2c .WCC .bloc2 .SEND:hover{
+    color: red;
+}
+
+@media screen and (max-width: 1280px){
+    body{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    p{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: justify;
+    }
+
+    .header{
+        padding: 0px;
+        margin-left: 0px;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .header li{
+        margin: 0px;
+        padding: 10px;     
+    }
+
+    @media (orientation: landscape) and (min-width: 500px){
+        .content1{
+            height: 100%;
+            padding: 20px;
+            margin: 0px;
+        }
+
+        .content2{
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .content2 .bloc1{
+            height: 100%;
+            margin-right: auto;
+            margin-left: auto;
+            flex-direction: column;
+        }
+
+        .content2 .bloc2{
+            width: auto;
+            height: 100%;
+            overflow:initial;
+        }
+
+        .content2e{
+            width: 100%;
+            margin-bottom: 0px;
+        }
+
+        .content2e .tableau{
+            width: 100%;
+        }
+
+        .content2e .tableau div{
+            width: 280px;
+        }
+    }
+
+    @media (orientation: portrait){
+        .content1{
+            width: auto;
+            height: 100%;
+            padding: 20px;
+            margin: 0px;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .content1 .bloc1{
+            width: 100%;
+        }
+
+        .content1 .bloc2{
+            width: 100%;
+        }
+        
+        .content1 img{
+            width: 80%;
+            margin-left: 0px;
+        }
+
+        .content2{
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0px;
+        }
+
+        .content2 .bloc1{
+            width: 100%;
+        }
+
+        .content2 .bloc2{
+            width: 380px;
+            height: 100%;
+            padding: 20px;
+            margin: 0px;
+            overflow:initial;
+        }
+    
+        .content1e{
+            width: 100%;
+        }
+
+        .content2e{
+            width: 100%;
+            flex-direction: column;
+            margin-bottom: 0px;
+        }
+        
+        .content2e .tableau{
+            width: 100%;
+            margin-bottom: 0px;
+            display: flex;
+            justify-content: center;
+        }
+
+        h4{
+            font-size: 30px;
+        }
+
+        .content2c .CI1{
+            font-size: 20px;
+        }
+        
+        .content2c .CI3{
+            font-size: 8px;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+body{
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: beige;
+}
+
+.content1{
+    width: 500px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.content2{
+    width: auto;
+    justify-content: center;
+}
+
+.content1 input{
+    height: 30px;
+}
+
+.box{
+    height: 400px;
+    margin-top: 200px;
+    font-size: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    border: 3px solid black;
+}

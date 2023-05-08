@@ -1,0 +1,113 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li{
+    margin-right: 20px;
+}
+
+a, a:active{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.menu-connexion li{
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+
+.connecter a:hover{
+    color: greenyellow;
+}
+
+.deconnecter:hover{
+    color: red;
+}
+
+.search{
+    color: white;
+}
+
+.BT-submit{
+    margin-top: 30px;
+}
+
+.contenu{
+    margin: 20px;
+    min-height: 1000px;
+}
+
+.tableau{
+    width: 1300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead{
+    background-color: red;
+}
+
+.news{
+    margin-top: 20px;
+    border: 2px, solid, black;
+    border-radius: 50px;
+}
+
+.news th{
+    border: none;
+}
+
+.acnews{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.carousel{
+    max-width: 800px;
+    max-height: 450px;
+    margin-bottom: 50px;
+}
+
+.carousel img{
+    max-width: 800px;
+    max-height: 450px;
+}
+
+.card{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #33333350;
+    margin: 10px;
+}
+
+.card img{
+    width: 250px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h3{
+    margin-top: 100px;
+}
+
+.footerlist{
+    color: black;
+}

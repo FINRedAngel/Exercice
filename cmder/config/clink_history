@@ -1,0 +1,47 @@
+|CTAG_1669972299_151363156_1836_0
+|s
+|s
+|s
+|ir ..
+dir ..
+|s
+dir..
+|s
+dir bin
+|s
+cd C/:
+cd C:/
+|s
+|ir Users
+|s
+|ir Public
+|s
+dir Public
+|s
+dir Users
+|s
+dir Utilisateurs
+|s
+dir Windows
+|s
+dir 'documents and Settings'
+touch test.html
+mkdir 'Dossier HTML'
+touch Test.html
+touch Design.css
+script.js
+touch script.js
+|s
+|ir HTML
+|s
+dir HTML/
+dir HTML
+code .
+|s
+dir C:/HTML
+dir C:/HTML/
+dir C:\HTML\
+|s
+dir C:\HTML
+ls
+MKdir "test test"

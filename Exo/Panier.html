@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/Style3.css">
+
+    <title>EXO</title>   
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <h1>Produits</h1>
+            <ul class="Menu">
+              <li><a href="Accueil.html">Accueil</a></li>
+              <li><a href="Produits.html">Produits</a></li>
+              <li><a href="Panier.html">Panier</a></li>
+            </ul>
+        </nav>
+        <iframe width="500px" height="300px" src="https://www.youtube.com/embed/c4t7JnCW-48" title="Overpowered from side quests" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="content">
+        <div class="E C1">
+            <p>Contenu 1</p>
+        </div>
+        <div class="E C2">
+            <p>Contenu 2</p>
+        </div>
+        <div class="E C3">
+            <p>Contenu 3</p>
+        </div>
+    </div>
+    <div class="content2">
+        <table>
+            <caption>Mon Repas:</caption>
+            <tr>
+                <th>Animal</th>
+                <th>Race</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Chien</td>
+                <td></td>
+                <td>3 mois</td>
+            </tr>
+            <tr>
+                <td>chat</td>
+                <td></td>
+                <td>1 ans</td>
+            </tr>
+            <tr>
+                <td>Canard</td>
+                <td></td>
+                <td>2 ans</td>
+            </tr>
+        </table>
+
+        <form class="Formulaire1" action="" method="post">
+            <p class="Form1">
+                <label for="">Nom:</label>
+                <input type="text" name="nom" id="nom" maxlength="10" required>
+                <br>
+                <label for="">Prenom:</label>
+                <input type="text" name="nom" id="Prenom" maxlength="10">
+                <br>
+                <label for="Email">Email:</label>
+                <input type="email" name="Email" id="Email">
+                <br>
+                <label for="Password">Mot de passe:</label>
+                <input type="Password" name="Password" id="Password">
+                <label for="Show">Show:</label><input type="checkbox" name="show" id="show">
+                <br>
+                <label for="textarea">Mon texte:</label>
+                <input type="textarea" name="textarea" id="textarea" cols="30" rows="5"></textarea>
+                <br>
+                <input type="submit" value="Envoyer">
+            </p>
+        </form>
+
+        <form class="Formulaire2" action="" method="post">
+            <p class="Form2">
+                <strong><u>Cochez vos aliments choissit :</u></strong>
+                <br><br>
+                <input type="checkbox" name="Frite" id="Frite">
+                <label for="Frite">Frite</label>
+                <br>
+                <input type="checkbox" name="Steak" id="Steak">
+                <label for="Steak">Steak</label>
+                <br>
+                <input type="checkbox" name="Saucisse" id="Saucisse">
+                <label for="Saucisse">Saucisse</label>
+                <br>
+                <input type="checkbox" name="OignionFrit" id="OignionFrit">
+                <label for="OignionFrit">Oignion Frit</label>
+                <br><br>
+                <strong><u>Quel age avez-vous? :</u></strong>
+                <br><br>
+                <input type="radio" name="age" id="Enfant">
+                <label for="Enfant">Moins de 10</label>
+                <br>
+                <input type="radio" name="age" id="Adolescent">
+                <label for="Adolescent">Esntre 10 et 18</label>
+                <br>
+                <input type="radio" name="age" id="Adulte">
+                <label for="Adulte">Enter 18 et 40</label>
+                <br>
+                <input type="radio" name="age" id="Senior">
+                <label for="Senior">Plus de 40</label>
+                <br><br>
+                <strong><u>Dans quel pays habitez-vous? :</u></strong>
+                <br><br>
+                <label for="Pays">Pays</label>
+                <select name="France" id="France">
+                    <optgroup label="Europe">
+                        <option value="France">France</option>
+                        <option value="Espagne">Espagne</option>
+                        <option value="Angleterre">Angleterre</option>
+                        <option value="Allemagne">Allemagne</option>
+                        <option value="Italie">Italie</option>
+                    </optgroup>
+                    <optgroup label="Asie">
+                        <option value="Japon">Japon</option>
+                        <option value="Corée">Corée</option>
+                        <option value="Chine">Chine</option>
+                    </optgroup>
+                </select>
+                <br><br>
+                <label for="cowbell">Appréciation</label>
+                <input type="range" id="like" name="Like" min="0" max="10" value="0" step="1">
+                <br><br>
+                <input type="submit" value="Envoyer">
+            </p>
+        </form>
+    </div>
+</body>
+</html> 

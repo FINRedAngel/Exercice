@@ -1,0 +1,39 @@
+Le protocol HTTP veut dire HyperText transfer protocol, c'est un moyen de relier des liens par des adresses dynamique.
+
+un client c'est un navigateur qui fait une requete par la demande d'une personne vers un serveur.
+
+Les 3 éléments qui constituent la requête sont le Get, Post et PUT.
+
+C'est l'onglet Réseau ou Network pour verifier les requêtes envoyer vers les serveurs
+
+une ressource est une donnée enregistrer sur un serveur et qui peut etre utiliser, comme une image ou un dossier.
+
+Les fichiers sourse comme les fichier.php
+
+un nom de domaine, est un adressage d'une adresse pour mieu le reconnaitre
+
+la reponse du code 200 sr une requête, veut dire que tout va  bien
+
+Oui, c'est un fichier qui peut etre telecharger comme une donnée.
+
+$ville = "Paris";
+c'est un string(5), c'est une chaine de caracter et sa valeur est Paris.
+
+$CodePostal = 77380;
+c'est un INT (integer) et sa valeur est 77380.
+
+il n'est pas autoriser d'utiliser les caracters speciaux, de faire des espaces ou de commencer par un nombre.
+
+Oui, vous pouvez redéfinir une variable quand vous le souhaitez:
+$ville = "Paris";
+$ville = "Tokyo";
+
+Une variable est comme une boite vide attendant qu'on le remplisse pour pouvoir réutiliser son contenu quand on le souhaite. Plusieurs donnée peut etre inscrite a l'interieur d'une seule variable.
+
+exos.php{
+<?php
+define('DBNAME','ecommerce');
+}
+
+On ne peut pas redéfinir une constante!
+
